@@ -4,7 +4,5 @@ module flatd;
 
 public import flatbuffers;
 
-public import flatd.CS_AUTHREQ;
-public import flatd.SC_AUTHRSP;
-public import flatd.CS_CHECKTOKENREQ;
-public import flatd.SC_CHECKTOKENRSP;
+public import flatd.REQ_VOTE;
+public import flatd.RES_VOTE;

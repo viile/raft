@@ -1,0 +1,15 @@
+namespace flatd;
+
+table REQ_VOTE
+{
+	term:ulong;
+	candidateId:uint;
+	lastLogIndex:ulong;
+    lastLogTerm:ulong;
+}
+
+table RES_VOTE
+{
+	term:ulong;
+	voteGranted:uint;
+}

@@ -1,1 +1,1 @@
-flatc --dlang -o ../source/ ./tcpauth.fbs
+flatc --dlang -o ../source/ ./raft.fbs
